@@ -42,3 +42,31 @@ VALUES ("Dog Biscuits", "Pet Supplies", 7, 13);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("HDMI Cable", "Electronics", 10, 50);
+
+CREATE DATABASE todolist;
+
+USE todolist;
+
+CREATE DATABASE blogger;
+
+USE blogger;
+
+CREATE DATABASE burgers_db;
+
+USE burgers_db;
+
+CREATE TABLE burgers(
+  id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  burger_name VARCHAR(75),
+  devoured BOOLEAN,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("California Burger", false);
+
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("Double Bacon Cheeseburger", false);
+
+INSERT INTO burger (burger_name, devoured)
+VALUES ("Black Bean Burger", false)

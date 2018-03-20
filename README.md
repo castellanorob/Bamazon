@@ -1,5 +1,5 @@
 # Bamazon
-This is a CLI application that uses Node.js and MySQL and acts as a storefront, taking in orders and depleting stock from a table.
+This is a CLI application that uses Node.js and MySQL and acts as a storefront, taking in orders and depleting stock from a database.
 
 Click here to watch a video walkthrough of the application: https://drive.google.com/file/d/13rzPprBpPWBMEKtUigLCNnFgLl8PxDjd/view?usp=sharing
 
